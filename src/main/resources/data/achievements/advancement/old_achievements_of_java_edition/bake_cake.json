@@ -1,0 +1,30 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_hoe",
+  "criteria": {
+    "make_cake": {
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.bake_cake.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cake"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.bake_cake.title"
+    }
+  },
+  "requirements": [
+    [
+      "make_cake"
+    ]
+  ]
+}

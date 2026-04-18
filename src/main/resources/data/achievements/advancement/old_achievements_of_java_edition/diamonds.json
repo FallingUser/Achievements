@@ -1,0 +1,33 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/acquire_iron",
+  "criteria": {
+    "diamond": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:diamond"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.diamonds.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_ore"
+    },
+    "title": {
+      "translate": "advancements.diamonds.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "diamond"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "advancements.diamonds_to_you.title"
+    },
+    "description": {
+      "translate": "advancements.diamonds_to_you.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "achievements:old_achievements_of_java_edition/diamonds",
+  "criteria": {
+    "pick_diamond": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "pick_diamond"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

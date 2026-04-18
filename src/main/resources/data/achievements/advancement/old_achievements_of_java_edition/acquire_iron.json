@@ -1,0 +1,69 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_furnace",
+  "criteria": {
+    "smelt_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "smelt_deepslate_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "smelt_raw_iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_deepslate_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_raw_iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.acquire_iron.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.story.smelt_iron.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "smelt_iron_ore"
+    ],
+    [
+      "smelt_deepslate_iron_ore",
+      "blast_iron_ore",
+      "blast_deepslate_iron_ore",
+      "blast_raw_iron"
+    ],
+    [
+      "smelt_raw_iron"]
+    ],
+  "sends_telemetry_event": false
+}

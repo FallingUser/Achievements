@@ -1,0 +1,36 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/the_end",
+  "criteria": {
+    "contact_end_portal": {
+      "conditions": {
+        "block": "minecraft:end_portal",
+        "player": {
+          "nbt": {
+            "Dimension": "minecraft:the_end"
+          }
+        }
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.the_end_2.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.the_end_2.title"
+    }
+  },
+  "requirements": [
+    [
+      "contact_end_portal"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

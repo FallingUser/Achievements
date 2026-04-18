@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "achievements",
+  "version": "${version}",
+  "name": "Achievements",
+  "description": "This mod add some achievements in old Java Edition(Minecraft 1.11.2) to present Java Edition in the form of advancements.",
+  "authors": ["FallingUser"],
+  "contact": {},
+  "license": "AGPL-3.0",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.github.FallingUser.achievements.fabric_datagen.AchievementsDataGenerator"
+    ],
+    "client": [
+      "com.github.FallingUser.achievements.client.AchievementsClient"
+    ],
+    "main": [
+      "com.github.FallingUser.achievements.Achievements",
+      "com.github.FallingUser.achievements.network.AchievementsDatagenAdvancement"
+    ]
+  },
+  "mixins": [
+    "achievements.mixins.json"
+  ],
+  "suggest": {
+    "mc-139908_fix": ">=1.0"
+  },
+  "depends": {
+    "minecraft": ">=26.1"
+  }
+}

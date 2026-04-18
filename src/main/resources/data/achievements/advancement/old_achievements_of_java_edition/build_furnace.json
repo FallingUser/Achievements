@@ -1,0 +1,28 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_pickaxe",
+  "criteria": {
+    "get_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:furnace"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.build_furnace.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:furnace"
+    },
+    "title": {
+      "translate": "advancements.build_furnace.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_furnace"
+    ]
+  ]
+}

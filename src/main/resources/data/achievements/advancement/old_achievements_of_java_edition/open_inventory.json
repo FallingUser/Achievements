@@ -1,0 +1,31 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/root",
+  "criteria": {
+    "open_inventory": {
+      "trigger": "achievements:open_inventory"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.open_inventory.description",
+      "with": [
+        {
+          "keybind": "key.inventory"
+        }
+      ]
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:book"
+    },
+    "title": {
+      "translate": "advancements.open_inventory.title"
+    }
+  },
+  "requirements": [
+    [
+      "open_inventory"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/blaze_rod",
+  "criteria": {
+    "contact_end_portal": {
+      "conditions": {
+        "block": "minecraft:end_portal",
+        "player": {
+          "nbt": {
+            "Dimension": "minecraft:overworld"
+          }
+        }
+      },
+      "trigger": "minecraft:enter_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.the_end.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_eye"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.story.enter_the_end.title"
+    }
+  },
+  "requirements": [
+    [
+      "contact_end_portal"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

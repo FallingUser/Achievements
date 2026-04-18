@@ -1,0 +1,73 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_work_bench",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.build_pickaxe.title"
+    },
+    "description": {
+      "translate":"advancements.build_pickaxe.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "build_wooden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe"
+      }
+    },
+    "build_stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe"
+      }
+    },
+    "build_copper_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_pickaxe"
+      }
+    },
+    "build_iron_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_pickaxe"
+      }
+    },
+    "build_golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    },
+    "build_diamond_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe"
+      }
+    },
+    "build_netherite_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "build_wooden_pickaxe",
+      "build_stone_pickaxe",
+      "build_copper_pickaxe",
+      "build_iron_pickaxe",
+      "build_golden_pickaxe",
+      "build_diamond_pickaxe",
+      "build_netherite_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

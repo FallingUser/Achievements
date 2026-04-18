@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_cod"
+    },
+    "title": {
+      "translate": "advancements.cook_fish.title"
+    },
+    "description": {
+      "translate": "advancements.cook_fish.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "achievements:old_achievements_of_java_edition/build_furnace",
+  "criteria": {
+    "get_cooked_salmon_from_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_cooked_salmon_from_smoking_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon_from_smoking"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_cooked_salmon_from_campfire": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_salmon_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_cooked_cod_from_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_cooked_cod_from_smoking_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod_from_smoking"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_cooked_cod_from_campfire": {
+      "conditions": {
+        "recipe_id": "minecraft:cooked_cod_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "requirements": [
+    [
+      "get_cooked_salmon_from_furnace",
+      "get_cooked_cod_from_furnace"
+    ],
+    [
+      "get_cooked_salmon_from_smoking_furnace",
+      "get_cooked_salmon_from_campfire",
+      "get_cooked_cod_from_smoking_furnace",
+      "get_cooked_cod_from_campfire"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

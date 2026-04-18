@@ -1,0 +1,31 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_hoe",
+  "criteria": {
+    "get_bread": {
+      "conditions": {
+        "recipe_id": "minecraft:bread"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.make_bread.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bread"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.make_bread.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_bread"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

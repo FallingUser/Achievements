@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.overkill.title"
+    },
+    "description": {
+      "translate": "advancements.overkill.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "achievements:old_achievements_of_java_edition/enchantments",
+  "criteria": {
+    "high_attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 18,
+            "max": 114514
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "high_attack"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

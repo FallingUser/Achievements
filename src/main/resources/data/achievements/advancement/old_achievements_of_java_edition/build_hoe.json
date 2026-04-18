@@ -1,0 +1,70 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/build_work_bench",
+  "criteria": {
+    "build_wooden_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_hoe"
+      }
+    },
+    "build_stone_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_hoe"
+      }
+    },
+    "build_copper_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_hoe"
+      }
+    },
+    "build_iron_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_hoe"
+      }
+    },
+    "build_golden_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_hoe"
+      }
+    },
+    "build_diamond_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_hoe"
+      }
+    },
+    "build_netherite_hoe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_hoe_smithing"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.build_hoe.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wooden_hoe"
+    },
+    "title": {
+      "translate": "advancements.build_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "build_wooden_hoe",
+      "build_stone_hoe",
+      "build_copper_hoe",
+      "build_iron_hoe",
+      "build_golden_hoe",
+      "build_diamond_hoe",
+      "build_netherite_hoe"
+    ]
+  ]
+}

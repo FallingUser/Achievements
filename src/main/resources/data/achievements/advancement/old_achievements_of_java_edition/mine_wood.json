@@ -1,0 +1,30 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/open_inventory",
+  "criteria": {
+    "get_log": {
+      "conditions": {
+        "item": {
+            "items": "#achievements:all_logs"
+          }
+	  },
+	"trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mine_wood.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.mine_wood.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_log"
+    ]
+  ]
+}

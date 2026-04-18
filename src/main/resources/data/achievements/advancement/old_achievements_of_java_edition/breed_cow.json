@@ -1,0 +1,41 @@
+{
+  "parent": "achievements:old_achievements_of_java_edition/kill_cow",
+  "criteria": {
+    "bred_cow": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:cow"
+        }
+      }
+    },
+    "bred_mooshrooms": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:mooshroom"
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.breed_cow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancements.breed_cow.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "bred_cow",
+      "bred_mooshrooms"
+    ]
+  ]
+}

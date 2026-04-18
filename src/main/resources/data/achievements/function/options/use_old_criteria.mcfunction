@@ -1,0 +1,7 @@
+advancement grant @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_salmon_from_furnace=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+advancement grant @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_cod_from_furnace=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+advancement revoke @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_salmon_from_smoking_furnace=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+advancement revoke @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_salmon_from_campfire=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+advancement revoke @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_cod_from_smoking_furnace=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+advancement revoke @a[advancements={achievements:old_achievements_of_java_edition/cook_fish={get_cooked_cod_from_campfire=true}}] only achievements:old_achievements_of_java_edition/cook_fish
+function achievements:options/use_old_criteria_for_explore_biomes

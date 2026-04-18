@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "translate": "advancements.kill_cow.title"
+    },
+    "description": {
+      "translate": "advancements.kill_cow.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "achievements:old_achievements_of_java_edition/build_sword",
+  "criteria": {
+    "get_leather": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:leather"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "requirements": [
+    [
+      "get_leather"
+    ]
+  ]
+}
