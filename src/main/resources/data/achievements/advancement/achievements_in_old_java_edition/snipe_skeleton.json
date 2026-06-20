@@ -1,0 +1,108 @@
+{
+  "parent": "achievements:achievements_in_old_java_edition/kill_enemy",
+  "criteria": {
+    "killed_skeleton": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:skeleton",
+              "distance": {
+                "horizontal": {
+                  "min": 50.0
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "killed_wither_skeleton": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:wither_skeleton",
+              "distance": {
+                "horizontal": {
+                  "min": 50.0
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "killed_stray": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:stray",
+              "distance": {
+                "horizontal": {
+                  "min": 50.0
+                }
+              }
+            }
+          }
+        ],
+        "killing_blow": {
+          "tags": [
+            {
+              "expected": true,
+              "id": "minecraft:is_projectile"
+            }
+          ]
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.java_edition.snipe_skeleton.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "advancements.adventure.sniper_duel.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "killed_skeleton",
+      "killed_wither_skeleton",
+      "killed_stray"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

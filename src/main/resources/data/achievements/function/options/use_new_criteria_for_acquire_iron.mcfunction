@@ -1,0 +1,1 @@
+advancement grant @a[advancements={achievements:old_achievements_of_java_edition/acquire_iron={smelt_raw_iron=true}}] only achievements:old_achievements_of_java_edition/acquire_iron
