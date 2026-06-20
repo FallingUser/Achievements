@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "achievements:item/getting_wood_in_legacy_console_and_new_nintendo_3ds_editions"
+  }
+}
