@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/sand",
+    "description": "",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cobblestone"
+    },
+    "show_toast": false,
+    "hidden": true,
+    "title": {
+      "translate": "advancements.java_edition.java.title"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

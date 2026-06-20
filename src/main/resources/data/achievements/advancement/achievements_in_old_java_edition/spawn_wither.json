@@ -1,0 +1,39 @@
+{
+  "parent": "achievements:achievements_in_old_java_edition/the_end_2",
+  "criteria": {
+    "summoned": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.java_edition.spawn_wither.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.java_edition.spawn_wither.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "summoned"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

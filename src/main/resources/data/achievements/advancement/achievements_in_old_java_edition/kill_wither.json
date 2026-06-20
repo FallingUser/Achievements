@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.java_edition.kill_wither.title"
+    },
+    "description": {
+      "translate": "advancements.java_edition.kill_wither.descriprion"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "achievements:achievements_in_old_java_edition/spawn_wither",
+  "criteria": {
+    "kill_wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_wither"
+    ]
+  ],
+  "sends_telemetry_event": false
+}
