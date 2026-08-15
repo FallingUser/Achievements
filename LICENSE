@@ -1,4 +1,4 @@
-Achievements mod use double licenses. Different part use different license: All files in src/resources/assets folder will use CC BY-NC-SA 4.0 deed, and other files will use AGPL v3 license.
+Achievements mod in and after version 1.2 use double licenses. Different part use different license: All files in src/resources/assets folder will use CC BY-NC-SA 4.0 deed, and other files will use AGPL v3 license.
 
 There is complete text of CC BY-NC-SA 4.0 deed in https://github.com/FallingUser/Achievements/blob/main/licenses/CC%20BY-NC-SA%204.0.txt.
 There is complete text of AGPL v3 license in https://github.com/FallingUser/Achievements/blob/main/licenses/AGPL_v3.pdf.
@@ -6,3 +6,5 @@ There is complete text of AGPL v3 license in https://github.com/FallingUser/Achi
 All the code and resources in this project are copyrighted by FallingUser.
 
 The project maintainer reserves the right to update this license policy. Any updates will be announced through official channels (Such as https://modrinth.com/mod/achievement and https://github.com/FallingUser/Achievements/blob/main/LICENSE).
+
+Achievements mod version 1.0 and 1.1 only use AGPL v3 license.
