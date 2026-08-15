@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "achievements:gui/advancements/backgrounds/achievement_background_in_legacy_console_and_new_nintendo_3ds_editions",
+    "description": "",
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "minecraft:air"
+      }
+    },
+    "show_toast": false,
+    "hidden": true,
+    "title": {
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.bedrock.title"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

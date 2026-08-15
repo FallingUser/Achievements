@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:music_to_my_ears"
+      }
+    },
+    "title": {
+      "translate": "advancements.bedrock_edition.music_to_my_ears.title"
+    },
+    "description": {
+      "translate": "advancements.bedrock_edition.music_to_my_ears.description"
+    }
+  },
+  "parent": "achievements:achievements_in_bedrock_edition/play_station_only/root",
+  "criteria": {
+    "music_to_my_ears": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:jukebox"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "music_to_my_ears"
+    ]
+  ]
+}

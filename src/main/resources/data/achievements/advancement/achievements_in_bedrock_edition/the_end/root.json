@@ -1,0 +1,30 @@
+{
+  "parent": "achievements:achievements_in_bedrock_edition/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "minecraft:air"
+      }
+    },
+    "show_toast": false,
+    "hidden": true,
+    "title": {
+      "translate": "advancements.bedrock_edition.the_end.title"
+    }
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

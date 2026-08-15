@@ -1,0 +1,75 @@
+{
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
+  "criteria": {
+    "build_wooden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe"
+      }
+    },
+    "build_stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe"
+      }
+    },
+    "build_copper_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_pickaxe"
+      }
+    },
+    "build_iron_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_pickaxe"
+      }
+    },
+    "build_golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    },
+    "build_diamond_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe"
+      }
+    },
+    "build_netherite_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.time_to_mine.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:time_to_mine_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
+    },
+    "title": {
+      "translate": "advancements.java_edition.build_pickaxe.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "build_wooden_pickaxe",
+      "build_stone_pickaxe",
+      "build_copper_pickaxe",
+      "build_iron_pickaxe",
+      "build_golden_pickaxe",
+      "build_diamond_pickaxe",
+      "build_netherite_pickaxe"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

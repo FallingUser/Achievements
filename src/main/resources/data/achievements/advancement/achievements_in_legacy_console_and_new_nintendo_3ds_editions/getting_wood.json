@@ -1,0 +1,34 @@
+{
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
+  "criteria": {
+    "get_log": {
+      "conditions": {
+        "item": {
+            "items": "#achievements:all_logs"
+          }
+	  },
+	"trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.getting_wood.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:getting_wood_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
+    },
+    "title": {
+      "translate": "advancements.java_edition.mine_wood.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "get_log"
+    ]
+  ]
+}
