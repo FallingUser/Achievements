@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "achievements:gui/advancements/backgrounds/achievement_background_in_bedrock_edition",
+    "description": "",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bedrock"
+    },
+    "show_toast": false,
+    "hidden": true,
+    "title": {
+      "translate": "advancements.bedrock_edition.bedrock.title"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
+  "criteria": {
+    "open_inventory": {
+      "trigger": "achievements:open_inventory"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.taking_inventory.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:taking_inventory_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
+    },
+    "title": {
+      "translate": "advancements.java_edition.open_inventory.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "open_inventory"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

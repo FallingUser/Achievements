@@ -1,0 +1,30 @@
+{
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
+  "criteria": {
+    "get_furnace": {
+      "conditions": {
+        "recipe_id": "minecraft:furnace"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.hot_topic.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:hot_topic_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
+    },
+    "title": {
+      "translate": "advancements.java_edition.build_furnace.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_furnace"
+    ]
+  ]
+}

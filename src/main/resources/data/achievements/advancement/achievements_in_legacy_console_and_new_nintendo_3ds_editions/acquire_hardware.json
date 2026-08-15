@@ -1,0 +1,71 @@
+{
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
+  "criteria": {
+    "smelt_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "smelt_deepslate_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "smelt_raw_iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_smelting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_deepslate_iron_ore": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "blast_raw_iron": {
+      "conditions": {
+        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.achievements_in_legacy_console_and_new_nintendo_3ds_editions.acquire_hardware.description"
+    },
+    "icon": {
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:acquire_hardware_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
+    },
+    "title": {
+      "translate": "advancements.achievements_in_legacy_console_and_new_nintendo_3ds_editions.acquire_hardware.title"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "smelt_iron_ore"
+    ],
+    [
+      "smelt_deepslate_iron_ore",
+      "blast_iron_ore",
+      "blast_deepslate_iron_ore",
+      "blast_raw_iron"
+    ],
+    [
+      "smelt_raw_iron"]
+    ],
+  "sends_telemetry_event": false
+}
