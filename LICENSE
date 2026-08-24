@@ -2,13 +2,13 @@ SPDX-License-Identifier: AGPL-3.0-only AND CC-BY-NC-SA-4.0
 
 This project (Achievements mod, versions 1.2 and later) adopts a Mixed-Licensing model based on the file directory.
 
-1. **Art Resources (All files located in `src/resources/assets/`)**:
+1. **Art Resources (All files located in `src/main/resources/assets/`)**:
    - These files (including but not limited to textures, models, sounds, and localization files) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
-   - Full text: See `licenses/CC BY-NC-SA 4.0.txt`.
+   - Full text: See `https://github.com/FallingUser/Achievements/blob/main/licenses/CC%20BY-NC-SA%204.0.txt`.
 
 2. **Source Code (All other files not located in `src/resources/assets/`)**:
    - These files are licensed under the **GNU Affero General Public License version 3 (AGPL-3.0-only)**.
-   - Full text: See `licenses/AGPL-3.0.pdf`.
+   - Full text: See `https://github.com/FallingUser/Achievements/blob/main/licenses/AGPL_v3.pdf`.
 
 **Copyright Notice**:
 All code and resources in this project are Copyright (C) 2026 by FallingUser. All rights reserved.
