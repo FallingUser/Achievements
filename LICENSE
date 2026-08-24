@@ -1,10 +1,23 @@
-Achievements mod in and after version 1.2 use double licenses. Different part use different license: All files in src/resources/assets folder will use CC BY-NC-SA 4.0 deed, and other files will use AGPL v3 license.
+SPDX-License-Identifier: AGPL-3.0-only AND CC-BY-NC-SA-4.0
 
-There is complete text of CC BY-NC-SA 4.0 deed in https://github.com/FallingUser/Achievements/blob/main/licenses/CC%20BY-NC-SA%204.0.txt.
-There is complete text of AGPL v3 license in https://github.com/FallingUser/Achievements/blob/main/licenses/AGPL_v3.pdf.
+This project (Achievements mod, versions 1.2 and later) adopts a Mixed-Licensing model based on the file directory.
 
-All the code and resources in this project are copyrighted by FallingUser.
+1. **Art Resources (All files located in `src/resources/assets/`)**:
+   - These files (including but not limited to textures, models, sounds, and localization files) are licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+   - Full text: See `licenses/CC BY-NC-SA 4.0.txt`.
 
-The project maintainer reserves the right to update this license policy. Any updates will be announced through official channels (Such as https://modrinth.com/mod/achievement and https://github.com/FallingUser/Achievements/blob/main/LICENSE).
+2. **Source Code (All other files not located in `src/resources/assets/`)**:
+   - These files are licensed under the **GNU Affero General Public License version 3 (AGPL-3.0-only)**.
+   - Full text: See `licenses/AGPL-3.0.pdf`.
 
-Achievements mod version 1.0 and 1.1 only use AGPL v3 license.
+**Copyright Notice**:
+All code and resources in this project are Copyright (C) 2026 by FallingUser. All rights reserved.
+
+**Disclaimer**:
+These works are provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the works or the use or other dealings in the works.
+
+**License Policy Updates**:
+The project maintainer reserves the right to update this license policy **for future releases only**. Any updates will be announced through official channels (Modrinth: https://modrinth.com/mod/achievement, GitHub: https://github.com/FallingUser/Achievements).
+
+**Historical Versions**:
+Versions 1.0 and 1.1 of the Achievements mod are exclusively licensed under AGPL-3.0-only.
