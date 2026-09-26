@@ -3,7 +3,7 @@
   "criteria": {
     "get_furnace": {
       "conditions": {
-        "recipe_id": "minecraft:furnace"
+        "recipes": "minecraft:furnace"
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -20,7 +20,9 @@
     },
     "title": {
       "translate": "advancements.java_edition.build_furnace.title"
-    }
+    },
+    "show_toast": false,
+    "announce_to_chat": false
   },
   "requirements": [
     [
