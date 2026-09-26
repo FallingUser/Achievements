@@ -3,21 +3,24 @@
   "criteria": {
     "crafting_table": {
       "conditions": {
-        "recipe_id": "minecraft:crafting_table"
+        "recipes": "minecraft:crafting_table"
       },
       "trigger": "minecraft:recipe_crafted"
     }
   },
   "display": {
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "description": {
       "translate": "advancements.java_edition.build_work_bench.description"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:crafting_table"
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:benchmaking_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
     },
-    "show_toast": true,
+    "show_toast": false,
     "title": {
       "translate": "advancements.java_edition.build_work_bench.title"
     }

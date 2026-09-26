@@ -4,7 +4,9 @@
     "bred_cow": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
-        "child": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
           "minecraft:entity_type": "minecraft:cow"
         }
       }
@@ -12,7 +14,9 @@
     "bred_mooshrooms": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
-        "child": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
           "minecraft:entity_type": "minecraft:mooshroom"
         }
       }

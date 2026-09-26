@@ -3,10 +3,14 @@
   "criteria": {
     "contact_end_portal": {
       "conditions": {
-        "block": "minecraft:end_portal",
+        "blocks": "minecraft:end_portal",
         "player": {
-          "nbt": {
-            "Dimension": "minecraft:overworld"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": {
+              "Dimension": "minecraft:overworld"
+            }
           }
         }
       },

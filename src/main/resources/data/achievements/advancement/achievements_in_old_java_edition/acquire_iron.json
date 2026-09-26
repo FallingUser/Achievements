@@ -3,37 +3,37 @@
   "criteria": {
     "smelt_iron_ore": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_smelting_iron_ore"
+        "recipes": "minecraft:iron_ingot_from_smelting_iron_ore"
       },
       "trigger": "minecraft:recipe_crafted"
     },
     "smelt_deepslate_iron_ore": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
+        "recipes": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
       },
       "trigger": "minecraft:recipe_crafted"
     },
     "smelt_raw_iron": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_smelting_raw_iron"
+        "recipes": "minecraft:iron_ingot_from_smelting_raw_iron"
       },
       "trigger": "minecraft:recipe_crafted"
     },
     "blast_iron_ore": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_blasting_iron_ore"
+        "recipes": "minecraft:iron_ingot_from_blasting_iron_ore"
       },
       "trigger": "minecraft:recipe_crafted"
     },
     "blast_deepslate_iron_ore": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
+        "recipes": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
       },
       "trigger": "minecraft:recipe_crafted"
     },
     "blast_raw_iron": {
       "conditions": {
-        "recipe_id": "minecraft:iron_ingot_from_blasting_raw_iron"
+        "recipes": "minecraft:iron_ingot_from_blasting_raw_iron"
       },
       "trigger": "minecraft:recipe_crafted"
     }
@@ -63,7 +63,8 @@
       "blast_raw_iron"
     ],
     [
-      "smelt_raw_iron"]
-    ],
+      "smelt_raw_iron"
+    ]
+  ],
   "sends_telemetry_event": false
 }
