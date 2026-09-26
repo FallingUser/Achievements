@@ -18,43 +18,43 @@
     "build_wooden_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:wooden_sword"
+        "recipes": "minecraft:wooden_sword"
       }
     },
     "build_stone_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:stone_sword"
+        "recipes": "minecraft:stone_sword"
       }
     },
     "build_copper_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:copper_sword"
+        "recipes": "minecraft:copper_sword"
       }
     },
     "build_iron_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:iron_sword"
+        "recipes": "minecraft:iron_sword"
       }
     },
     "build_golden_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:golden_sword"
+        "recipes": "minecraft:golden_sword"
       }
     },
     "build_diamond_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:diamond_sword"
+        "recipes": "minecraft:diamond_sword"
       }
     },
     "build_netherite_sword": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:netherite_sword_smithing"
+        "recipes": "minecraft:netherite_sword_smithing"
       }
     }
   },
