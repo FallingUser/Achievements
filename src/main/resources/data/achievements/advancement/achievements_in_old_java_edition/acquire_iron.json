@@ -63,7 +63,8 @@
       "blast_raw_iron"
     ],
     [
-      "smelt_raw_iron"]
-    ],
+      "smelt_raw_iron"
+    ]
+  ],
   "sends_telemetry_event": false
 }
