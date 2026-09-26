@@ -1,1 +1,1 @@
-$execute unless data entity @s {UUID:$(Thrower)} run advancement grant @a[nbt={UUID:$(Thrower)}] only achievements:old_achievements_of_java_edition/diamonds_to_you
+$execute unless data entity @s {UUID:$(Thrower)} run advancement grant @a[nbt={UUID:$(Thrower)}] only achievements:achievements_in_old_java_edition/diamonds_to_you
