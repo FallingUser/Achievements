@@ -3,25 +3,23 @@
   "criteria": {
     "killed_skeleton": {
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:skeleton",
-              "distance": {
-                "horizontal": {
-                  "min": 50.0
-                }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:skeleton",
+            "distance": {
+              "horizontal": {
+                "min": 50.0
               }
             }
           }
-        ],
+        },
         "killing_blow": {
           "tags": [
             {
               "expected": true,
-              "id": "minecraft:is_projectile"
+              "id": "#minecraft:is_projectile"
             }
           ]
         }
@@ -30,25 +28,23 @@
     },
     "killed_wither_skeleton": {
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:wither_skeleton",
-              "distance": {
-                "horizontal": {
-                  "min": 50.0
-                }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wither_skeleton",
+            "distance": {
+              "horizontal": {
+                "min": 50.0
               }
             }
           }
-        ],
+        },
         "killing_blow": {
           "tags": [
             {
               "expected": true,
-              "id": "minecraft:is_projectile"
+              "id": "#minecraft:is_projectile"
             }
           ]
         }
@@ -57,25 +53,23 @@
     },
     "killed_stray": {
       "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:entity_type": "minecraft:stray",
-              "distance": {
-                "horizontal": {
-                  "min": 50.0
-                }
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:stray",
+            "distance": {
+              "horizontal": {
+                "min": 50.0
               }
             }
           }
-        ],
+        },
         "killing_blow": {
           "tags": [
             {
               "expected": true,
-              "id": "minecraft:is_projectile"
+              "id": "#minecraft:is_projectile"
             }
           ]
         }
