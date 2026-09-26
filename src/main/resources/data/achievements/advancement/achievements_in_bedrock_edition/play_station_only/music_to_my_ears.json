@@ -16,14 +16,12 @@
   "parent": "achievements:achievements_in_bedrock_edition/play_station_only/root",
   "criteria": {
     "music_to_my_ears": {
-      "trigger": "minecraft:any_block_use",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "minecraft:block_state_property",
-            "block": "minecraft:jukebox"
-          }
-        ]
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:jukebox"
+        }
       }
     }
   },
