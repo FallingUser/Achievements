@@ -18,43 +18,43 @@
     "build_wooden_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:wooden_pickaxe"
+        "recipes": "minecraft:wooden_pickaxe"
       }
     },
     "build_stone_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:stone_pickaxe"
+        "recipes": "minecraft:stone_pickaxe"
       }
     },
     "build_copper_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:copper_pickaxe"
+        "recipes": "minecraft:copper_pickaxe"
       }
     },
     "build_iron_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:iron_pickaxe"
+        "recipes": "minecraft:iron_pickaxe"
       }
     },
     "build_golden_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:golden_pickaxe"
+        "recipes": "minecraft:golden_pickaxe"
       }
     },
     "build_diamond_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:diamond_pickaxe"
+        "recipes": "minecraft:diamond_pickaxe"
       }
     },
     "build_netherite_pickaxe": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+        "recipes": "minecraft:netherite_pickaxe_smithing"
       }
     }
   },
