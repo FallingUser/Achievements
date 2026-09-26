@@ -1,69 +1,75 @@
 {
-  "parent": "achievements:achievements_in_old_java_edition/build_furnace",
+  "parent": "achievements:achievements_in_legacy_console_and_new_nintendo_3ds_editions/root",
   "criteria": {
-    "smelt_iron_ore": {
+    "build_wooden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_smelting_iron_ore"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:wooden_pickaxe"
+      }
     },
-    "smelt_deepslate_iron_ore": {
+    "build_stone_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:stone_pickaxe"
+      }
     },
-    "smelt_raw_iron": {
+    "build_copper_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_smelting_raw_iron"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:copper_pickaxe"
+      }
     },
-    "blast_iron_ore": {
+    "build_iron_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_blasting_iron_ore"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:iron_pickaxe"
+      }
     },
-    "blast_deepslate_iron_ore": {
+    "build_golden_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_blasting_deepslate_iron_ore"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:golden_pickaxe"
+      }
     },
-    "blast_raw_iron": {
+    "build_diamond_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipes": "minecraft:iron_ingot_from_blasting_raw_iron"
-      },
-      "trigger": "minecraft:recipe_crafted"
+        "recipes": "minecraft:diamond_pickaxe"
+      }
+    },
+    "build_netherite_pickaxe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "minecraft:netherite_pickaxe_smithing"
+      }
     }
   },
   "display": {
     "description": {
-      "translate": "advancements.java_edition.acquire_iron.description"
+      "translate": "advancements.legacy_console_and_new_nintendo_3ds_editions.time_to_mine.description"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:iron_ingot"
+      "id": "minecraft:structure_void",
+      "components": {
+        "minecraft:item_model": "achievements:time_to_mine_in_legacy_console_and_new_nintendo_3ds_editions"
+      }
     },
     "title": {
-      "translate": "advancements.story.smelt_iron.title"
+      "translate": "advancements.java_edition.build_pickaxe.title"
     },
     "show_toast": false,
     "announce_to_chat": false
   },
   "requirements": [
     [
-      "smelt_iron_ore"
-    ],
-    [
-      "smelt_deepslate_iron_ore",
-      "blast_iron_ore",
-      "blast_deepslate_iron_ore",
-      "blast_raw_iron"
-    ],
-    [
-      "smelt_raw_iron"]
-    ],
+      "build_wooden_pickaxe",
+      "build_stone_pickaxe",
+      "build_copper_pickaxe",
+      "build_iron_pickaxe",
+      "build_golden_pickaxe",
+      "build_diamond_pickaxe",
+      "build_netherite_pickaxe"
+    ]
+  ],
   "sends_telemetry_event": false
 }
